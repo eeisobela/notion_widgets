@@ -72,7 +72,7 @@ h1 {
     min-width: 162px;
     /* padding-right: 30px; */
     /* border-right: 2px solid #295C7B; */
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Proxima Nova', sans-serif;
     font-size: 1.2em;
 }
 .greet{
@@ -119,10 +119,10 @@ var hour = zeros(twelveHour(today.getHours()));
 var minutes = zeros(today.getMinutes());
 var seconds = zeros(today.getSeconds());
 if(twelveHour(today.getHours()) >12){
-    seconds+=" pm"
+    seconds+=" am"
 }
 else{
-    seconds+=" am"
+    seconds+=" pm"
 }
 hrs = today.getHours();
 if (hrs < 12)
